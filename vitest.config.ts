@@ -5,14 +5,6 @@ import path from 'path';
 export default defineConfig({
   test: {
     environment: 'jsdom',
-    setupFiles: ['./vitest.setup.ts'],
-    deps: {
-      optimizer: {
-        web: {
-          include: [],
-        },
-      },
-    },
     poolOptions: {
       threads: {
         singleThread: true,

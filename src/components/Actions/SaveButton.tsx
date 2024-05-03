@@ -13,7 +13,7 @@ function SaveButton() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'polygons.bin';
+    link.download = 'polygon.bin';
     link.click();
 
     // Wait for the download to finish before revoking the URL

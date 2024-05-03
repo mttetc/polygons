@@ -13,10 +13,6 @@ function Home() {
         xs: 'column',
         md: 'row',
       }}
-      gap={{
-        xs: 2,
-        md: 0,
-      }}
       container
       columns={4}
       wrap="nowrap"

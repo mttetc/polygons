@@ -22,7 +22,11 @@ function Canvas() {
   const placeholderText = 'Draw something!';
 
   return (
-    <Box ref={ref} sx={{ height: '100%', width: '100%' }}>
+    <Box
+      ref={ref}
+      sx={{ height: '100%', width: '100%' }}
+      data-testid="canvas-container"
+    >
       <Stage
         width={dimensions.width}
         height={dimensions.height}

@@ -53,6 +53,7 @@ function List() {
               initial="hidden"
               animate="visible"
               exit="exit"
+              data-testid="list-item"
             >
               <ListItemButton
                 selected={polygon.isSelected}
