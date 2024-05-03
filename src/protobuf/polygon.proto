@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Polygon {
+    string id = 1;
+    string name = 2;
+    repeated int32 points = 3;
+    bool isSelected = 4;
+}
+  
+message PolygonList {
+  repeated Polygon polygons = 1;
+}
